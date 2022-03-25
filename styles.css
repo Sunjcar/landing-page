@@ -12,26 +12,41 @@ body{
 }
 .top{
     display:flex;
-    justify-content: space-between; 
-    margin:100px;
-    margin-top:0;
+    justify-content: space-evenly; 
+    margin-top: 20px;
     
 }
 .logo{
     font-size: 24px;
-    color:#f9faf8
+    color:#f9faf8;
+    font-weight: bolder;
+    
 }
+
 
 .links, .subtext, .footer{
     font-size:18px;
-    color:#e5e7eb
+    color:#e5e7eb;
+}
+.flex{
+    display:flex;  
+    padding:90px;
+    justify-content: space-evenly;
+}
+.hero{
+    margin-bottom: 0;
+    display:flex;
+    flex-direction: column;    
+    gap:30px;
 }
 
-.hero{
-    margin:90px;
-    max-width: 300px;
-    font-weight: bolder;
+
+.container{
+    display:flex;
+    justify-content: center;
+   
 }
+
 
 .text{
     font-size: 48px;
@@ -42,7 +57,6 @@ body{
     margin:40px;
     gap:52px;
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -52,22 +66,34 @@ body{
     font-size: 36px;
     font-weight: bolder;
     display:flex;
-    align-items: center;
     justify-content: center;
 }
 
+img{
+    height: 140px;
+    width: 140px;
+    border-radius: 8px;
+    border: 5px solid #3882f6;
+}
+
+.info{
+    width: 100px;
+}
 .test{
     display:flex;
 
     flex-wrap:wrap;
     background-color:#e5e7eb;
     font-style: italic;
-    font-size: 36px;
+    font-size: 20px;
+    padding:100px;
+    padding-left:750px;
+    padding-right:750px;
 }
+    
+.sign{
+    font-weight: bolder;
 
-.signs{
-    display:flex;
-    justify-content: center;
 }
 
 .footer {
@@ -77,16 +103,42 @@ body{
     justify-content: center;
 
 }
+    
 
 button{
     background-color: #3882f6;
     color:#e5e7eb;
-    border:0;
-    margin-top: 10px;
-    padding:8px 28px;
+    padding:8px 16px;
+    border-radius: 8px;
+    border:1px solid #ddd;
+    max-width: 90px;
+    margin-top:-30px;
 }
 
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    color:#e5e7eb
+}
+
+.box{
+    background-color: #3882f6;
+}
 .content{
     display:flex;
-    flex-direction: column;
-}
+    align-items:center;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 25px;
+    max-width: 1000px;
+    margin:90px;
+    padding:40px;
+    color:#e5e7eb;
+    margin-left: 480px;
+   
+}    
+.signs{
+    display:flex;
+    justify-content: center;
+    gap:200px;
+}    
